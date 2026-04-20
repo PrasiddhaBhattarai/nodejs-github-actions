@@ -26,10 +26,10 @@ jobs:
 
        echo "updating code"
        git fetch origin main
-       git reset origin main
+       git checkout main
+       git reset --hard origin main
 
        echo "building and deploying container"
-       docker compose down
        docker compose up -d --build
 
        echo "deployment complete"
