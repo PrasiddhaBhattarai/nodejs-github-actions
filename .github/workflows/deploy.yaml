@@ -22,7 +22,7 @@ jobs:
       script: |
        set -e
 
-       cd /home/ubuntu/nodejs-application-deploy-github-actions
+       cd /home/ubuntu/nodejs-github-actions
 
        echo "updating code"
        git fetch origin main
