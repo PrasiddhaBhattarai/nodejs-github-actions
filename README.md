@@ -9,3 +9,17 @@
 - sudo apt-get upgrade
 - install docker (follow official documentation for installation in ubuntu)
 - clone your repo
+
+## initially
+``` 
+prashidha@Prasiddhas-MacBook-Air Github_Actions % curl http://100.30.227.216:8080
+{"message":"Hello from the server"}%    
+```
+
+## after performing minor update in index.js and pushing into remote repo
+<img src="github-actions.png" alt="Photo" height="350"/>
+<br>
+```
+prashidha@Prasiddhas-MacBook-Air Github_Actions % curl http://100.30.227.216:8080
+{"message":"Hello from the server, part2"}%     
+```
